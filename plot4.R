@@ -60,7 +60,8 @@ with(df_household_power, {
 
 par(mfg=c(2,1)) # For legend, set current figure to the sub metering plot
 legend("topright", 
-       legend=c("Sub_metering1", "Sub_metering_2", "Sub_metering_3"), 
+       legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), 
+       bty='n',
        lty=c(1,1,1),
        col=c("black", "red", "blue"))
 
