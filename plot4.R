@@ -36,7 +36,7 @@ with(df_household_power, {
     plot(tick,
          Voltage,
          type="l",
-         xlab = "datetime", # Please, no label on x axis!
+         xlab = "datetime", 
          #ylab = "Voltage" # No need to specify as this is default
          )
     
@@ -53,7 +53,7 @@ with(df_household_power, {
     plot(tick,
          Global_reactive_power,
          type="l",
-         xlab = "", # Please, no label on x axis!
+         xlab = "datetime",
          #ylab = "Global_reactive_power" # No need to specify this as this is default
          )
 })
